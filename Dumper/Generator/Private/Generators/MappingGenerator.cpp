@@ -147,7 +147,6 @@ EMappingsTypeFlags MappingGenerator::GetMappingType(UEProperty Property)
 	{
 		return EMappingsTypeFlags::SoftClassProperty;
 	}
-	// newer UE5 stuff - sparse delegates, large world coords, Verse types
 	else if (Flags & EClassCastFlags::MulticastSparseDelegateProperty)
 	{
 		return EMappingsTypeFlags::MulticastSparseDelegateProperty;

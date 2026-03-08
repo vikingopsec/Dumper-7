@@ -359,11 +359,11 @@ enum class EMappingsTypeFlags : uint8
 	VerseStringProperty,
 	VerseDynamicProperty,
 	VerseFunctionProperty,
-	MulticastSparseDelegateProperty, // sparse multicast delegates, UE5
-	LargeWorldCoordinatesRealProperty, // double for large world coords
-	VValueProperty, // Verse value
-	VRestValueProperty, // Verse rest param
-	VCellProperty, // Verse cell ref
+	MulticastSparseDelegateProperty,
+	LargeWorldCoordinatesRealProperty,
+	VValueProperty,
+	VRestValueProperty,
+	VCellProperty,
 
 	Unknown = 0xFF
 };
